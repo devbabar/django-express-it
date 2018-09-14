@@ -1,0 +1,29 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+
+{% block content %}
+
+<div id="postform" class='container col-lg-6 col-lg-offset-3'>
+	<div class='expressit panel panel-default'>	
+		<div class='panel-heading'>
+			<h3 class='panel-title'>Add expressit</h2>
+		</div>
+		<form method="POST" enctype='multipart/form-data'>
+			<table>
+				<h2>Create Post</h2>
+				{% csrf_token %}
+				{{ form.as_table }}
+			</table>
+			<div id="post-btn" class='col-lg-12 text-center'>
+				<button type="submit" name='post-btn' value='submit' class="btn btn-block"><h4>Create Post</h4></button>
+			</div>
+		</form>
+	</div>
+</div>
+
+{% endblock %}
+
+
+
+

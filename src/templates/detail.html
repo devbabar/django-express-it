@@ -1,0 +1,36 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+{% block content %}		
+
+	<div class='expressit panel panel-default'>
+		<div class='panel-heading'>
+			<h2 class='panel-title'>{{expressit.name}}</h2>
+		</div>
+		<div class='panel-body'>
+			<div class='expressit-photo-detail'>
+				<img src="{{ expressit.image.url  }}" height='400'>
+			</div>
+			<table class="expressit-table">
+				<tr>
+					<th>
+						<img src="{% static 'images/material-icon.png'%}">	
+						Description:
+					</th>
+					<td class="col-lg-10">{{expressit.description}}</td>
+				</tr>
+				<tr>
+					<th>
+						<img src="{% static 'images/location-icon.png'%}">	
+						Location:
+					</th>
+					<td class="col-lg-10">{{expressit.location}}</td>
+				</tr>
+			</table>
+		</div>
+		<div id='homereturnbtn' class='col-lg-8 col-lg-offset-2 text-center'>
+			<a class="btn btn-block" href="{%url 'index'%}">Go back to Home</a>
+		</div>
+	</div>
+{% endblock %}
+	

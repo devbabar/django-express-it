@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block content %}
+
+<!-- Ajax will check either username is already taken or not -->
+{% block javascript %}
+
+<script>
+    $("#id_username").change(function(){
+        var form = $(this).closest("form");
+
+        $.ajax({
+            url: form.attr('data-validate-username-url'),
+            data: form.serialize(),
+            dataType: 'json',
+            success:function(data){
+                if(data.is_taken){
+                    alert(data.error_message);
+                }
+            }
+        });
+    });
+</script>
+
+{% endblock %}
+
+
+<div id="signupform" class='container col-lg-4 col-lg-offset-4'>	
+	<form method="POST" data-validate-username-url="{% url 'validate_username'%}">
+		<table>
+			<h2>Register</h2>
+			{% csrf_token %}
+			{{ form.as_table }}
+		</table>
+		<div class='col-lg-12 text-center'>
+			<button type="submit" name='register' class="btn btn-block">Register</button>
+		</div>
+	</form>
+</div>
+{% endblock %}

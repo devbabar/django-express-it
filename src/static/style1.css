@@ -1,0 +1,431 @@
+h2{
+	color: #ffffff;
+}
+/*-----------------------
+signupform
+----------------------*/
+
+#signupform{
+  background: #ff8533;
+}
+
+#signupform label{
+  color: #ffffff;
+}
+
+#signupform h2{
+  text-align: center;
+}
+
+#signupform button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#signupform table{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+/*----------end----------*/
+
+/*--------------index ------------*/
+#home_detail_btn .btn-block{
+  background-color: #ff8533 !important;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/*---------end----------------------*/
+
+
+/*---------------------
+---detail page-------
+---------------------*/
+#homereturnbtn .btn-block{
+  background-color: #ff8533 !important;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+
+/*---------------------*/
+
+/*---------------------
+---profile-------
+---------------------*/
+#profile{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.profile-img{
+  padding: 5px;
+}
+
+#create-post-btn .btn-block{
+  background-color: #ff8533 !important;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#postform input{
+  width: 400px;
+  margin: 5px;
+}
+
+#postform form{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:20px;
+}
+
+#post-btn{
+  margin-top: 30px;
+
+}
+
+#post-btn .btn-block{
+  background-color: #ff8533 !important;
+  color: #ffffff;
+}
+/*----------------------*/
+
+/*------------------------------------------
+-----jquery index.html SECTION Gallery start
+------------------------------------------*/
+body{
+    font-family: Arial, sans-serif;
+}
+
+#gallery-section-marquee{
+  font-size: 50px;
+  color: #ff8533;
+}
+
+.imgbox,.imgbox2,.imgbox3 div{
+  height: 100px;
+  position: relative;
+  /*overflow-y: scroll;*/
+  overflow: hidden;
+  color: #ff8533;
+}
+
+.imgbox, .imgbox2, .imgbox3 div:hover {
+  overflow-y: scroll;
+}
+
+#gallery h3{
+  text-align: center;
+  color: #ff8533;
+  font-weight: 900;
+}
+
+#gallery-section-marquee p{
+  margin: -15px;
+}
+
+#gallery{
+    position:relative;
+    /*margin:0 auto;*/
+    margin-bottom: 20px;
+    /*border:1px solid #ccc;*/
+    /*background:#fff;*/
+    /*width:600px;*/
+    height:200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; 
+    overflow:hidden;
+}
+
+.imgbox{
+    position:absolute;
+    top:18px;
+    right:-280px;
+    height:160px;
+    /*width:160px;*/
+    border:5px solid #ff8533; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+
+}
+.imgbox2{
+    position:absolute;
+    top:18px;
+    right:-280px;
+    height:160px;
+    /*width:160px;*/
+    border:5px solid #ff8533; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+.imgbox3{
+    position:absolute;
+    top:18px;
+    right:-280px;
+    height:160px;
+    /*width:160px;*/
+    border:5px solid #ff8533; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+.textbox{
+    position:absolute;
+    top:205px;
+    right:18px;
+    height:160px;
+    width:160px;
+    border:1px solid #eee; 
+    color:#EC008C;
+    font-weight:bold;  
+    font-size:12px;
+    background:#FAFAFA;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+
+
+/*=================================
+========== Media Query ==========
+=================================*/
+/*@media (max-width: 480px){
+  .imgbox{
+    position:absolute;
+    top:18px;
+    right:-170px;
+    height:60px;
+    width:60px;
+    border:2px solid #EC008C; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+
+}*/
+/*======== Media Query Ends ===========*/
+
+/*--------------- SECTION Gallery end -----------------*/
+
+
+/*---------------------------------------------
+-----Day & Night Photography tips Section start
+----------------------------------------------*/
+#day-photography div, #night-photography div{
+  height: 300px;
+  overflow: hidden;
+  color: #ff8533;
+   
+}
+
+.btn-warning{
+  background-color: #ff8533;
+  font-weight: 900;
+}
+
+
+
+#day-photography div:hover, #night-photography div:hover {
+  overflow-y: scroll;
+}
+
+
+#day-photography, #night-photography{
+  /*border:5px solid #ccc;*/
+  height: 285px;
+  margin-bottom: 160px;
+  color: #ff8533;
+}
+
+#day-night-section-marquee{
+  font-size: 50px;
+  color: #ff8533;
+}
+
+#day-night-buttons{
+  margin-bottom: 10px;
+}
+
+/*-----Day & Night Photography tips Section Ends--------*/
+
+/*---------------------------------------------
+------------------- Photo Gallery Section start
+----------------------------------------------*/
+
+.about, .about2, .about3 p{
+  color: #ff8533;
+
+}
+
+.status{
+   color: #ff8533;
+   position: fixed;
+
+}
+
+
+
+/*--------- Photo Gallery Section ends -------*/
+
+body {
+  /*background:  #f3e1c5 url(images/brand-bg.jpg) no-repeat center top;*/
+  background-color: #42464D;
+  /*color: #42464D;*/
+  /*color: #263d2c;*/
+}
+.navbar-right {
+    margin-right: 10px;
+  }
+
+.container {
+  max-width: 940px;
+  padding-top: 40px;
+  max-width: 1100px;
+  padding-right:0px;
+  padding-left:0px;
+
+}
+
+/*.navbar {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}*/
+
+.navbar-default{
+  background: #ff8533;
+  color: #ffffff !important;
+  /*background: #fdf9f0;*/
+  /*border-color: #ece4cf;*/
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+
+.panel {
+  background: #fff6e8;
+  border-color: #ece4cf;
+  box-shadow: 0 2px 2px #a58d65;
+  margin-top: 10px;
+
+}
+
+.panel-default .panel-heading {
+  background: #fbf3dd;
+  border-color: #ece4cf;
+}
+
+.panel-body {
+  position: relative;
+}
+
+.panel-title {
+  font-size: 1.5em;
+  color: #263d2c;
+}
+
+/* ----- Custom Stuff ----- */
+
+.footer {
+  border-top: 1px solid #c6b397;
+  color: #d0b695;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.expressit {
+  margin-bottom: 20px;
+}
+
+
+.expressit:last-child {
+  margin-bottom: 0;
+}
+
+.expressit-photo {
+  background: #fdf2e1;
+  float: left;
+  margin-right: 5%;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  /*width: 80%;*/
+  /*overflow: hidden;*/
+}
+
+.expressit-photo img {
+  height: 180px;
+  max-width: 100%;
+}
+
+.expressit-table {
+  float: left;
+  margin-top: 10px;
+  width: 45%;
+}
+
+.expressit-table img {
+  margin-right: 10px;
+}
+
+.expressit-table tr {
+  border-bottom: 1px solid #ece4cf;
+}
+
+.expressit-table td,
+.expressit-table th {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  vertical-align: baseline;
+}
+
+.expressit-table th {
+  color: #e0ccb2;
+  white-space: nowrap;
+}
+
+.expressit-table td:last-child {
+  padding-left: 20px;
+  width: 100%;
+}
+.expressit-photo-detail {
+  background: #fdf2e1;
+  float: left;
+  margin-right: 5%;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
